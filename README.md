@@ -1,35 +1,19 @@
-A default blog scaffold for **ruhoh** compatible static blog parsers.
+# Hidden Rebel Base
 
-**This version is for [ruhohSpec v1.0](http://ruhoh.com/universal-blog-api/) and is only compatible with ruhoh gem 1.0.x.x**
+_Not to be confused with my antiquated HRB Sass file_
 
-See <http://ruhoh.com> for more information.
+## TL;DR
 
-## Usage and Documentation
+Overdue personal website overhaul is overdue. 
 
-See <http://ruhoh.com/usage> for full usage and documentation.
+## I grow tired of asking, so it will be the last time...
 
-Currently the only parser is available in ruby as a ruby gem:
+Like a lot of people, I simply don't make time to work on my personal site. Part of the problem is that I really want to focus on the content and design, and not mucking around trying to hammer a square Wordpress (I used WP for my former site) into a round hole. 
 
-````bash
-$ gem install ruhoh --version '1.0.0.alpha'
-$ ruhoh help
-````
+Part of the problem with Wordpress is that it is an excellend blog platform - but as soon as you try to fit it into something else, it simply requires too much wrangling for my taste.
 
-Once you have the gem you can run your blog locally:
+Thus: [Ruhoh](http://ruhoh.com) shall be considered.
 
-Assume USERNAME is your GitHub username.
+## Have a bad feeling about this?
 
-````bash
-$ git clone git://github.com/ruhoh/blog.git USERNAME.ruhoh.com
-$ cd USERNAME.ruhoh.com
-$ rackup -p 9292
-````
-
-Using your GitHub username is useful for automatically publishing to ruhoh.com
-
-For all publishing options including self-hosting see: <http://ruhoh.com/usage/publish>
-
-## License
-
-Released under the [MIT License](http://www.opensource.org/licenses/MIT)
-
+Part of the fun of this is exploring what can be done with this framework. That means a certain tolerance for anomalies should be expected.

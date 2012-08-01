@@ -1,16 +1,17 @@
-title : Blog Title
-tagline: Blog Tagline
+title : Andrew Colclough
+tagline: Who is this? What's your operating number?
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Andrew Colclough 
+  email : andrew.design@gmail.com
+  github : andrewdc
+  twitter : wtc
+  # feedburner : feedname
 
 navigation :
   - archive.html
   - tags.html
   - categories.html
   - pages.html
-  - about.md
+  - about/index.md
+
   
