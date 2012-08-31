@@ -15,7 +15,7 @@
   "javascripts" : {
     "default" : [
 
-      "mins.js"
+      "mins.js",
       "scripts.js"
     ]
   },
