@@ -1,0 +1,21 @@
+     <!-- Galleries require gallery data specified in the page YAML formatted as
+     nails:
+      -
+        url: imagepath.jpeg
+        title: title for overlay
+        datcon: Content for overlay
+      -->
+
+    <ul class="thumbnails"> 
+      {{# page.nails}}
+        <li title="{{title}}" data-content="{{datcon}}">
+          <div class="frame"></div>
+          <!-- <a href="#" class="thumbnail" title="{{title}}" data-content="{{datcon}}"> -->
+          </a>
+          <img class="lazy" data-original="{{urls.media}}/{{url}}" src="{{urls.media}}/hold.gif" alt=""  width="400" height="300" />
+          {{#modal}}
+            <a class="modaltrigger" name="{{title}}" data-toggle="modal" data-target="#myModal" href="{{urls.media}}/{{modalurl}}"></a>
+          {{/modal}}
+        </li>
+      {{/ page.nails}}
+    </ul>

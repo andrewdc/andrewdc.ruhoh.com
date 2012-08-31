@@ -1,0 +1,75 @@
+      <div class="leftwing" style="display:none;">
+        <h3>Resume</h3>
+        <div class="work">
+
+        <ul id="jobs" class="accordion">
+            <div class="accordion-group">
+                <li><a href="#job1" data-toggle="collapse" data-parent="#jobs"><h4>Senior Web Graphics and User Interface Designer</h4><span class="company">Press Ganey</span></a></li>
+                <li id="job1" class="collapse">
+                    <ul>
+                      <li>Work with Project Owner and Manager to create direction of web application products</li>
+                      <li>Build and refine user experiences across several web application initiatives</li>
+                      <li>Develop web-based (SCSS/HTML/JS/Ruby) application front-ends for demonstration and development internally, and externally for clients and future customers</li>
+                      <li>Design solutions for communicating highly complex data in pleasant and understandable ways</li> 
+                      <li>Create all graphical assets for applications</li>
+                      <li>Assist other remote software teams with application designs and direction</li>
+                    </ul>
+                </li>
+            </div>
+            <div class="accordion-group">
+                <li ><a href="#job2" data-toggle="collapse" data-parent="#jobs"><h4>User Experience Designer</h4> <span class="company">Educational Policy Improvement Center</span></a></li>
+                <li id="job2" class="collapse">
+                    <ul>
+                      <li>Chief on site front-end UI and UX resource</li>
+                      <li>Build and maintain user flows, interactions, and outcomes from initial sketches to interactive HTML/CSS/JS/PHP mock-ups, to final polished products</li>
+                      <li>Support back-end development team merging visual layer with  business code PHP/Javascript layer</li>
+                      <li>Build and work with Content Management Systems</li>
+                      <li>Advise research team in planning applications and projects for state-wide clients</li>
+                      <li>In charge of video production and online distribution</li>
+                    </ul>
+                </li>
+            </div>
+            <div class="accordion-group">
+                <li ><a data-toggle="collapse" data-parent="#jobs" href="#job3"><h4>Designer And Front-End Developer</h4> <span class="company">InstantAction, Garage Games</span></a></li>
+                <li id="job3" class="collapse">
+                    <ul>
+                      <li>Primary team asset for integrating CSS/HTML/JS front-end UI/UX across complex javascript and PHP Zend Framework browser based game platform application</li>
+                      <li>Worked with fast-paced web development and design teams creating project concepts, to final live web applications serving more than 2 million registered users</li>
+                      <li>Integrated web application into Facebook</li>
+                      <li>Conceptualized user experience of site features as well as informed project direction of future network plans</li>
+                    </ul>
+                </li>
+            </div>
+            <div class="accordion-group">
+                <li ><a data-toggle="collapse" data-parent="#jobs" href="#job4"><h4>Web Designer And Developer</h4><span class="company">BowTech</span></a></li>
+                <li id="job4" class="collapse">
+                    <ul>
+                      <li>Incorporated cutting-edge web technology into existing online content to build on the online presence of a revolutionary company</li>
+                      <li>Oversaw and produced five major websites, two related online stores, and a consumer level online store</li>
+                      <li>Implemented solutions to help bridge the gap between the web and non-technical users through powerful and user-friendly content management systems</li>
+                      <li>Build and work with Content Management Systems</li>
+                      <li>Advised marketing department on current web trends, ideas, and new technologies</li>
+                    </ul>
+                </li>
+            </div>
+            <div class="accordion-group">
+                <li ><a data-toggle="collapse" data-parent="#jobs" href="#job5"><h4>Web Designer And Developer</h4><span class="company">Pure Blue</span></a></li>
+                <li id="job5" class="collapse">
+                    <ul>
+                      <li>Created website designs, coded CSS and XHTML for diverse range of clients, including world relief organizations and home security businesses</li>
+                      <li>Formatted PDF proposals for major corporations including Microsoft and Corbis</li>
+                      <li>Worked directly with clients to ensure seamless communication as I consistently exceeded requirements and met deadlines, often with extremely quick turnaround times</li>
+                    </ul>
+                </li>
+            </div>
+            
+        </ul>
+
+        <h4 class="haps">Happening Now</h4>
+        <div id="dribbble"></div>
+        
+      </div> <!-- /.work -->
+        <div class="drawer-footer">
+          <div class="more">Detailed Resume: <a href="http://zerp.ly/adc" target="_blank">Zerply</a> | <a href="http://www.linkedin.com/in/andrewdc" target="_blank">LinkdIn</a> | <a href="http://dribbble.com/adc" target="_blank">Dribbble</a> | Download Resume</div>
+        </div>
+      </div>

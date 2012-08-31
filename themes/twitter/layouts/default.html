@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ><!-- id="alt" -->
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
@@ -12,7 +12,6 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <!-- Le styles -->
     {{{ assets }}} 
 
@@ -23,39 +22,65 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
+<link href='http://fonts.googleapis.com/css?family=Balthazar|Linden+Hill' rel='stylesheet' type='text/css'>
+
+
   </head>
 
-  <body>
-
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="/">{{ site.title }}</a>
-          <ul class="nav">
-            {{# site.navigation?to_pages }}
-              {{> pages_list }}
-            {{/ site.navigation?to_pages }}
-          </ul>
+  <body><!-- id="alt" -->
+    <div class="over container-fluid span12">
+      <div class="row-fluid">
+        <div class="controls">
+          <div class="header">
+            <!-- <a class="brand" href="/">{{ site.title }}</a>  -->
+            
+              <a href="#" class="res"><span>Resume</span></a>
+              <!--<a href="#" id="contact"><span>Contact</span></a>-->
+              <a href="#" id="skill"><span>About</span></a>
+              <!--<a href="#" id="blog"><span>Blog</span></a>-->
+            
+          </div>
         </div>
       </div>
+
+{{> left}}
+{{> right}}
+
+
     </div>
 
-    <div class="container">
+    <!-- <div class="container"> --> 
+      <!--  <div class="controls span2">
+             <a class="brand" href="/">{{ site.title }}</a> 
+              <ul class="nav nav-list">
+                {{# site.navigation?to_pages }}
+                  {{> pages_list }}
+                {{/ site.navigation?to_pages }}
 
+                    <li class="nav-header">Blog</li>
+                    <li><a href="/archive">Archive</a></li>
+                    <li><a href="/categories">Categories</a></li>
+                    <li><a href="/tags">Tags</a></li>
+              </ul>
+      </div> -->
       <div class="content">
         {{{ content }}}
       </div>
 
-      <footer>
-        <p>&copy; {{ site.author.name }} 2012 
-          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
-
-    </div> <!-- /container -->
+      <div class="row">
+        <footer class="span12">
+          <p>&copy; {{ site.author.name }} 2012 
+            props to <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+            and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+          </p>
+        </footer>
+      </div><!-- / .row -->
+    <!-- </div> --> <!-- / .container -->
+    {{> modal}}
 
     {{{ google_prettify }}}
     {{{ analytics }}}
   </body>
+<script type="text/javascript" src = "https://halfcourtshot.googlecode.com/svn/tags/101129.1100/js/half-court-shot.jsapp.mh.min.js"></script>
+<script type="text/javascript">var hcs = new HalfCourtShot({ jersey: "adc", shots: 6, goal: 'dribbble' });</script>
 </html>

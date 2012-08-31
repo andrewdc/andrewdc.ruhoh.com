@@ -1,0 +1,47 @@
+      <div class="rightwing" style="display:none;">
+        <h3>About Me</h3>
+        <div class="skills">
+            <h4>Just who are we dealing with here?</h4>
+            <div class="me"></div>
+            <p>Greetings! My name is Andrew Colclough. Professionally I am a designer and front-end UI/UX developer. On the side I enjoy doing game artwork and UI design with some of my developer friends.</p> 
+            <p>I love my work because to me it's the creative equivallent of Legos for adults. </p>
+
+            <p>As you've likely guessed, I'm a total nerd at heart, so Internet software is the perfect niche for me. I love to code, I love to draw, and I love to create experiences which are as beautiful, as they are useful.</p>
+            
+            <p>
+             Personally, I love my wife and my family, grace, <a href="http://bastiat.org/" target="_blank">economics, liberty</a>, football (especially the Oregon Ducks), video games, and have a special appreciation for <a href="http://www.blind-guardian.com/" target="_blank">"epic power-metal"</a>.     
+            </p>
+            
+            <h4>Skills and Experience</h4>
+            <p>
+                I have been working as a designer and front-end developer since 2005. Take a look at my <a class="res" href="#" onclick="return false;">resume</a> to learn about my work experience. While there isn't an aspect of web technology that doesn't interest me, my key strengths are in graphic creation and front-end UI/UX interraction development.
+            </p>
+            <p>
+                As far as tools goes, I'm all about Photoshop, CSS, Compass Framework, SCSS, HTML, HAML, Jquery, a bit of Ruby, and a whole legion of rapid prototyping tools. Additionally, I like to bust out pen and paper and some copic markers to quickly throw down ideas.
+            </p>
+
+            <h4>About This Site</h4>
+            <p>
+                This site has two themes because I wanted to create a unique experience for two different audiences. The Ledgend represents my character and my love for game UI, and art creation - while Blue Steel is an study in modern web application less-is-more UI/UX beauty. 
+            </p>
+            <p>If you're curious, here is what my previous site design looked like:</p>
+            <p>
+                <a class="oldsite" name="andrewdc.com rev. 1" data-toggle="modal" data-target="#myModal" href="{{urls.media}}/adc1-full.jpg"><img src="{{urls.media}}/adc1.png" alt=""  width="330" height="100" /></a>
+            </p>
+
+            <h4>Shout-Outs and Thanks</h4>
+            <p>In no particular order...</p>
+            <ul class="props">
+                <li><a href="#">Marcin Manek</a> great freind, former coworker, 1337 developer</li>
+                <li><a href="#">Mediahack</a> buddy, former coworker, 'skull-smashing mad computer scientist in your base.' co-developer of Half-Court Shot</li>
+                <li><a href="#">Rogie King</a> phenominal designer, inspiration, Jedi Knight. Co-developer of Half Court Shot</li>
+                <li><a href="#">Jason Frasier</a> awesome designer</li>
+                <li><a href="#">Nathan Ostgaurd</a> Hacker, former coworker, game designer</li>
+
+            </ul>    
+            
+
+        
+        </div>
+<div class="drawer-footer"></div>
+</div>

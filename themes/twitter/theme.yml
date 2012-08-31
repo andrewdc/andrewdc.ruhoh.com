@@ -2,17 +2,21 @@
   "stylesheets" : {
     "default" : [
       "bootstrap.min.css",
+      "jquery.mCustomScrollbar.css",
       "style.css"
     ],
    
     "widgets" : {
-      "google_prettify" : "twitter-bootstrap.css"
+      "google_prettify" : "sons-of-obsidian.css"
     }
     
   },
 
   "javascripts" : {
     "default" : [
+
+      "mins.js"
+      "scripts.js"
     ]
   },
   
