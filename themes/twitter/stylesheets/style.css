@@ -8,7 +8,7 @@ html, body {
   color:#fff1cf;
   font-family: 'Balthazar', serif;
 }
-html#alt, body#alt{background:#efefef url("../img/greybg.jpg") center center no-repeat fixed;
+html.alt, body.alt{background:#efefef url("../img/greybg.jpg") center center no-repeat fixed;
 -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -361,7 +361,7 @@ hr {
   z-index:5;
   background:url('../img/woodframe.png') no-repeat;
 }
-#alt .thumbnails .frame {display:none;}
+body.alt .thumbnails .frame {display:none;}
 .thumbnail{
   width:413px; height:313px;
   display:block;
@@ -374,7 +374,7 @@ hr {
   z-index:6;
   cursor:default;
 }
-#alt .thumbnails img { 
+body.alt .thumbnails img { 
   border: 1px solid #c9c9c9;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;

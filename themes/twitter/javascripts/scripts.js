@@ -24,6 +24,13 @@ jQuery(document).ready(function($) {
     $("#myModalLabel").text(thetitle);
   });
 
+$('.switchy').toggle(function() {
+  $('html, body').addClass('alt');
+}, function() {
+  $('html, body').removeClass('alt');
+});
+  
+
 $('#jobs li').click(function(event) {
   $('.work').mCustomScrollbar("update");
 });
