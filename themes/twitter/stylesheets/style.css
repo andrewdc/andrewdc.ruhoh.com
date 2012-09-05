@@ -37,7 +37,7 @@ a:active, a:link {border:none;}
 .over {z-index:100; position:absolute; padding:0; margin: 0 auto; width:100%; top:0; min-width:950px;}
 .controls{margin:0 auto; width:940px; position:relative;}
 .header {position: fixed; z-index:51;height:195px; width:940px;}
-.leftwing, .rightwing{z-index:50; width:475px; position: fixed; top:149px; height:600px; background:transparent url('../img/sidepanel.png') left top no-repeat; overflow:visible;}
+.leftwing, .rightwing{z-index:51; width:475px; position: fixed; top:149px; height:600px; background:transparent url('../img/sidepanel.png') left top no-repeat; overflow:visible;}
 .leftwing{left:0; }
 .drawer-footer{
   position:absolute;
@@ -352,7 +352,7 @@ hr {
 
 /* Gallery Stuff
 ==============================================================*/
-.thumbnails li {position: relative; width:426px; height:326px; margin:0 0 20px 42px;}
+.thumbnails li {position: relative; width:426px; height:326px; margin:0 0 20px 42px; overflow:hidden;}
 .thumbnails .frame {
   width:413px; height:313px;
   border:none;
@@ -399,6 +399,15 @@ a.thumbnail:hover {
 
 /* Popover
 =============================================*/
+.info{width:413px; display: block; position:absolute; z-index: 4; margin-left:5px;}
+.infotitle{color:#d1a251; display:block; line-height: 1; background:#49381f url('../img/sidepanel.png') center -30px no-repeat; padding: 9px 15px 9px 25px;}
+.infodata{ display: block;
+  color:#fff1cf;
+  padding: 14px 14px 25px 25px;
+  background:#24170f url('../img/sidepanel.png') -120px -80px no-repeat;
+}
+
+
 
 .popover {
   color:#d1a251;

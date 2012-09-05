@@ -30,14 +30,15 @@
             </p>
 
             <h4>Shout-Outs and Thanks</h4>
-            <p>In no particular order...</p>
             <ul class="props">
-                <li><a href="#">Marcin Manek</a> great friend, former co-worker, 1337 developer</li>
-                <li><a href="#">Mediahack</a> buddy, former co-worker, 'skull-smashing mad computer scientist in your base.' co-developer of Half-Court Shot</li>
-                <li><a href="#">Rogie King</a> phenomenal designer, inspiration, Dudical-Dude Jedi Master. Co-developer of Half Court Shot</li>
+                <li><a href="#">Brian Warren</a> friend, former co-worker, quality</li>
+                <li><a href="#">David Queener</a> friend, former co-worker, game designer, quality </li>
                 <li><a href="#">Jason Frasier</a> awesome designer</li>
+                <li><a href="#">Marcin Manek</a> friend, former co-worker, 1337 developer</li>
+                <li><a href="#">Mediahack</a> buddy, former co-worker, 'skull-smashing mad computer scientist in your base.' co-developer of Half-Court Shot</li>
                 <li><a href="#">Nathan Ostgaurd</a> Hacker, former co-worker, game designer</li>
-
+                <li><a href="#">Rogie King</a> phenomenal designer, inspiration, Dudical-Dude Jedi Master. Co-developer of Half Court Shot</li>
+                <li><a href="#">Sean Sullivan</a> bro, former co-worker, js</li>
             </ul>    
             
 
