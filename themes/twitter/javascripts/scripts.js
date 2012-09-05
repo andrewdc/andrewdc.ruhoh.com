@@ -16,10 +16,10 @@ jQuery(document).ready(function($) {
 
     $(this).hover(function() {
       $info.stop(1);
-      $info.animate({top: tipheight - $info.height()});
+      $info.animate({top: tipheight - $info.height()}, 300);
     }, function() {
       $info.stop(1);
-      $info.animate({top: tipheight });
+      $info.animate({top: tipheight }, 100, 'linear');
     });
   });
 
@@ -47,9 +47,18 @@ $('.switchy').toggle(function() {
 });
   
 
-$('#jobs li').click(function(event) {
+// $('#jobs li').click(function(event) {
+//   $('.work').mCustomScrollbar("update");
+// });
+
+$('#jobs li').on('hidden', function() {
   $('.work').mCustomScrollbar("update");
 });
+$('#jobs li').on('shown', function() {
+  $('.work').mCustomScrollbar("update");
+});
+  
+
 
 
 //===Drawers======================
@@ -82,7 +91,7 @@ $('.res').live('click', function(event) {
 });
 
  $('.skills, .work').mCustomScrollbar({
-  autoDraggerLength: "false"
+  // autoDraggerLength: "true"
  });
 
 
