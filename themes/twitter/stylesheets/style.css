@@ -228,16 +228,25 @@ a:active, a:link {border:none;}
   width:8px;
   background:transparent url('../img/geardrag.png') -50px -9px repeat-y;
 }
+
+.mCSB_scrollTools .mCSB_dragger { background:transparent url('../img/geardrag.png') -1px bottom  no-repeat;}
+
 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
   background:#fff; /* rgba fallback */
   background:rgba(255,255,255,0.75);
+  position:absolute;
+  top:-4px;
   border-radius: 0px;
   width:20px;
   height:95px;
   background:transparent url('../img/geardrag.png') -1px -9px no-repeat;
   filter:"alpha(opacity=100)"; -ms-filter:"alpha(opacity=100)"; /* old ie */
 }
+.mCSB_scrollTools .mCSB_dragger:hover {
+  background:transparent url('../img/geardrag.png') -23px bottom no-repeat;
+}
 .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+
   
   background:rgba(255,255,255,0.85);
   background:transparent url('../img/geardrag.png') -23px -9px no-repeat;

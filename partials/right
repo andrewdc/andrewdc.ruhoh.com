@@ -42,10 +42,11 @@
             </ul>
             <h4>Tech Props</h4>
               <ul class="props">
-                <li>This site is built on <a href="http://ruhoh.com">Ruhoh</a>. A killer blog aware static site tool.</li>
-                <li>Themes and design make use of <a href="http://twitter.github.com/bootstrap/index.html">Twitter Bootstrap</a>.</li>
+                <li>This site is built on <a href="http://ruhoh.com" target="_blank">Ruhoh</a>. A killer blog aware static site tool built by Jade Dominguez.</li>
+                <li>Themes and design make use of <a href="http://twitter.github.com/bootstrap/index.html" target="_blank">Twitter Bootstrap</a>.</li>
                 <li><a href="http://jquery.com">JQuery and JqueryUI</a>. Seriously - what else dominates this much?</li>
-                <li>Dribbble gallery brought to you buy <a href="http://code.google.com/p/halfcourtshot/">Half Court Shot</a>. A 1337 js bit composed by Rogie and Mediahack.</li>
+                <li>Dribbble gallery brought to you buy <a href="http://code.google.com/p/halfcourtshot/" target="_blank">Half Court Shot</a>. A 1337 js bit composed by Rogie and Mediahack.</li>
+                <li>Until more browsers support styling scrollbars, I'm using a great custom scrollbar js by <a href="http://manos.malihu.gr/jquery-custom-content-scroller" target="_blank">Manos</a></li>
 
                 
             </ul>    
