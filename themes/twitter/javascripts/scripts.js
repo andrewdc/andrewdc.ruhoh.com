@@ -81,5 +81,4 @@ $('.res').live('click', function(event) {
  });
 
 
-
 });

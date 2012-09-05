@@ -16,6 +16,7 @@
     "default" : [
 
       "mins.js",
+      "view.min.js",
       "scripts.js"
     ]
   },
