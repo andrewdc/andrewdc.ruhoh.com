@@ -513,7 +513,7 @@ a.thumbnail:hover {
   line-height: 6em;
   font-size: 22px;
   color:#d1a251;
-  text-shadow:0 -1px 0 rgba(250, 200, 10, 0.7), 0 1px 2px rgba(0, 0, 0, 0);
+  text-shadow:0 1px 2px rgba(0, 0, 0, 0);
   font-weight:normal;
 }
 .viewer .next, .viewer .previous {
@@ -546,8 +546,16 @@ a.thumbnail:hover {
   text-decoration:none;
 }
 
-a.view{width:400px; height:300px; cursor:pointer; z-index:50; position:absolute; bottom:13px; right:15px; background:transparent url('../img/zoomer.png') 336px 170px no-repeat; opacity:.40}
-.thumbnails li:hover a.view{opacity:1; bottom:15px; right:17px; background-position:273px 234px;}
+a.view{width:400px; height:300px; cursor:pointer; z-index:50; position:absolute; bottom:13px; right:15px;  opacity:.20; background:none;}
+.thumbnails li:hover a.view{opacity:1; bottom:15px; right:17px; 
+}
+/*
+background:transparent url('../img/mag.png') 20px 20px no-repeat;
+-webkit-transition: background 0.2s ease-out;
+-moz-transition: background 0.2s ease-out;
+-o-transition: background 0.2s ease-out;
+transition: background 0.2s ease-out;
+*/
 
 
 
