@@ -47,6 +47,29 @@ a:active, a:link {border:none;}
   height:114px;
   background:transparent url('../img/log-footer.gif') left top no-repeat;
 }
+a.closeme{
+  display: block;
+  position:absolute;
+  width:110px;
+  height:42px;
+  text-align:center;
+  font-size: 17px;
+  color:#fff;
+  text-shadow:0px 0px 2px #000;
+  background:transparent url('../img/gear-button.png') left top no-repeat;
+  top:23px;
+  line-height:37px;
+}
+a.closeme:hover{
+background-position:0 -42px;
+  color:#fff;
+  text-shadow:0px 0px 2px #000;
+  text-decoration:none;
+
+}
+.leftwing a.closeme {right:117px;} 
+.rightwing a.closeme {left:126px;}
+
 .me{width:123px; height:201px; background:transparent url('../img/me.png') left top no-repeat; float:right;}
 .leftwing {
   background-position:right 0;
@@ -486,10 +509,47 @@ a.thumbnail:hover {
 .viewer .current .caption{
   opacity: 100;
   visibility: visible;
+  background: url('../img/log-footer.gif') center top no-repeat;
+  line-height: 6em;
+  font-size: 22px;
+  color:#d1a251;
+  text-shadow:0 -1px 0 rgba(250, 200, 10, 0.7), 0 1px 2px rgba(0, 0, 0, 0);
+  font-weight:normal;
+}
+.viewer .next, .viewer .previous {
+  background:transparent url('../img/left-rightgear.gif') 51% 47% no-repeat;
+}
+.viewer .next:hover {background-position:48% 47%;}
+.viewer .previous {background-position:48% 47%;}
+.viewer .previous:hover {background-position:51% 47%;}
+
+.viewer .close {
+  color:#d1a251;
+  font-size: 31px;
+  display: block;
+  position:absolute;
+  width:110px;
+  height:42px;
+  text-align:center;
+  font-size: 31px;
+  line-height:36px;
+  color:#fff;
+  text-shadow:0px 0px 2px #000;
+  background:transparent url('../img/gear-button.png') left top no-repeat;
+}
+.viewer .close:hover {
+  color:#fff;
+  font-size: 31px;
+  background-position:0 -42px;
+  color:#fff;
+  text-shadow:0px 0px 2px #000;
+  text-decoration:none;
 }
 
 a.view{width:400px; height:300px; cursor:pointer; z-index:50; position:absolute; bottom:13px; right:15px; background:transparent url('../img/zoomer.png') 336px 170px no-repeat; opacity:.40}
 .thumbnails li:hover a.view{opacity:1; bottom:15px; right:17px; background-position:273px 234px;}
+
+
 
 /* Modal
 =======================================*/

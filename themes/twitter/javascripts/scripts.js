@@ -56,7 +56,7 @@ $('#jobs li').on('shown', function() {
 
 
 //===Drawers======================
-$('#skill').live('click', function(event) {
+$('#skill, .rightwing .closeme').live('click', function(event) {
   if ($('.rightwing').hasClass('open') ) {
     $('.rightwing').hide("slide", {direction:"right"}, 100).removeClass('open');
   } else {
@@ -65,7 +65,7 @@ $('#skill').live('click', function(event) {
   };
 });
 
-$('.res').live('click', function(event) {
+$('.res, .leftwing .closeme').live('click', function(event) {
   if ($('.leftwing').hasClass('open') ) {
     $('.leftwing').hide("slide", {direction:"left"}, 100).removeClass('open');
   } else {

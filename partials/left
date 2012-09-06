@@ -1,5 +1,5 @@
       <div class="leftwing" style="display:none;">
-        <h3>Resume</h3>
+        <h3>Resume</h3><a class="closeme" href="#" onclick="return false;">Close</a>
         <div class="work">
 
         <ul id="jobs" class="accordion">

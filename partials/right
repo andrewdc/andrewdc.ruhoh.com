@@ -1,5 +1,5 @@
       <div class="rightwing" style="display:none;">
-        <h3>About Me</h3>
+        <h3>About Me</h3><a class="closeme" href="#" onclick="return false;">Close</a>
         <div class="skills">
             <h4>Just who are we dealing with here?</h4>
             <div class="me"></div>
@@ -35,6 +35,7 @@
                 <li><a href="#">David Queener</a> friend, former co-worker, game designer, quality </li>
                 <li><a href="#">Jason Frasier</a> awesome designer</li>
                 <li><a href="#">Marcin Manek</a> friend, former co-worker, 1337 developer</li>
+                <li><a href="#">MarK McCoy</a> friend, former co-worker, game designer</li>
                 <li><a href="#">Mediahack</a> buddy, former co-worker, 'skull-smashing mad computer scientist in your base.' co-developer of Half-Court Shot</li>
                 <li><a href="#">Nathan Ostgaurd</a> Hacker, former co-worker, game designer</li>
                 <li><a href="#">Rogie King</a> phenomenal designer, inspiration, Dudical-Dude Jedi Master. Co-developer of Half Court Shot</li>
