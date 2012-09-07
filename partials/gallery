@@ -13,7 +13,7 @@
 
           <img class="lazy" data-original="{{urls.media}}/{{url}}" src="{{urls.media}}/hold.gif" alt=""  width="400" height="300" />
           {{#modal}}
-            <a class="view" title="{{title}}" href="{{urls.media}}/{{modalurl}}"></a><!-- data-toggle="modal" data-target="#myModal" -->
+            <a class="view" name="{{title}}" href="{{urls.media}}/{{modalurl}}"></a><!-- data-toggle="modal" data-target="#myModal" -->
           {{/modal}}
           <span class="info">
             <span class="infotitle">{{title}}</span>

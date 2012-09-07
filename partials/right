@@ -29,27 +29,29 @@
                 <a class="oldsite" name="andrewdc.com rev. 1" data-toggle="modal" data-target="#myModal" href="{{urls.media}}/adc1-full.jpg"><img src="{{urls.media}}/adc1.png" alt=""  width="330" height="100" /></a>
             </p>
 
-            <h4>Shout-Outs and Thanks</h4>
-            <ul class="props">
-                <li><a href="#">Brian Warren</a> friend, former co-worker, quality</li>
-                <li><a href="#">David Queener</a> friend, former co-worker, game designer, quality </li>
-                <li><a href="#">Jason Frasier</a> awesome designer</li>
-                <li><a href="#">Marcin Manek</a> friend, former co-worker, 1337 developer</li>
-                <li><a href="#">MarK McCoy</a> friend, former co-worker, game designer</li>
-                <li><a href="#">Mediahack</a> buddy, former co-worker, 'skull-smashing mad computer scientist in your base.' co-developer of Half-Court Shot</li>
-                <li><a href="#">Nathan Ostgaurd</a> Hacker, former co-worker, game designer</li>
-                <li><a href="#">Rogie King</a> phenomenal designer, inspiration, Dudical-Dude Jedi Master. Co-developer of Half Court Shot</li>
-                <li><a href="#">Sean Sullivan</a> bro, former co-worker, js</li>
-            </ul>
             <h4>Tech Props</h4>
               <ul class="props">
                 <li>This site is built on <a href="http://ruhoh.com" target="_blank">Ruhoh</a>. A killer blog aware static site tool built by Jade Dominguez.</li>
                 <li>Themes and design make use of <a href="http://twitter.github.com/bootstrap/index.html" target="_blank">Twitter Bootstrap</a>.</li>
                 <li><a href="http://jquery.com">JQuery and JqueryUI</a>. Seriously - what else dominates this much?</li>
-                <li>Dribbble gallery brought to you buy <a href="http://code.google.com/p/halfcourtshot/" target="_blank">Half Court Shot</a>. A 1337 js bit composed by Rogie and Mediahack.</li>
+                <li>Dribbble gallery brought to you buy <a href="http://code.google.com/p/halfcourtshot/" target="_blank">Half Court Shot</a>. A 1337 bit of javeascript composed by Rogie King and Mediahack.</li>
                 <li>Until more browsers support styling scrollbars, I'm using a great custom scrollbar js by <a href="http://manos.malihu.gr/jquery-custom-content-scroller" target="_blank">Manos</a></li>
+                <li>My image gallery uses the slick <a href="http://finegoodsmarket.com/view/" target="_blank">View.js</a> by Rogie King.</li>  
+            </ul>
 
-                
+
+            <h4>Shout-Outs and Thanks Go To</h4>
+            <ul class="props">
+                <li><a href="#">Brian Warren</a> </li>
+                <li><a href="#">David Queener</a> </li>
+                <li><a href="#">Jason Frasier</a> </li>
+                <li><a href="#">Marcin Manek</a> </li>
+                <li><a href="#">Mark McCoy</a> </li>
+                <li><a href="#">Mediahack</a> </li>
+                <li><a href="#">Nate Fema</a> </li>
+                <li><a href="#">Nathan Ostgaurd</a></li>
+                <li><a href="#">Rogie King</a> </li>
+                <li><a href="#">Sean Sullivan</a> </li>
             </ul>    
             
 
