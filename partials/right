@@ -34,7 +34,7 @@
                 <li>This site is built on <a href="http://ruhoh.com" target="_blank">Ruhoh</a>. A killer blog aware static site tool built by Jade Dominguez.</li>
                 <li>Themes and design make use of <a href="http://twitter.github.com/bootstrap/index.html" target="_blank">Twitter Bootstrap</a>.</li>
                 <li><a href="http://jquery.com">JQuery and JqueryUI</a>. Seriously - what else dominates this much?</li>
-                <li>Dribbble gallery brought to you buy <a href="http://code.google.com/p/halfcourtshot/" target="_blank">Half Court Shot</a>. A 1337 bit of javeascript composed by <a href="http://rog.ie">Rogie King</a> and <a href="http://blog.mediahack.com/apps/half-court-shot">Mediahack</a>.</li>
+                <li>Dribbble gallery brought to you buy <a href="http://code.google.com/p/halfcourtshot/" target="_blank">Half Court Shot</a>. A 1337 bit of javeascript composed by <a href="http://rog.ie">Rogie King</a> and <a href="http://blog.mediahack.com/apps/half-court-shot" target="_blank">Mediahack</a>.</li>
                 <li>Until more browsers support styling scrollbars, I'm using a great custom scrollbar js by <a href="http://manos.malihu.gr/jquery-custom-content-scroller" target="_blank">Manos</a></li>
                 <li>My image gallery uses the slick <a href="http://finegoodsmarket.com/view/" target="_blank">View.js</a> by Rogie King.</li>  
             </ul>
@@ -45,14 +45,14 @@
                 <li><a href="#">Brian Warren</a> </li>
                 <li><a href="#">David Queener</a> </li>
                 <li><a href="#">Jason Frasier</a> </li>
-                <li><a href="http://www.marcinmanek.com/">Marcin Manek</a> </li>
-                <li><a href="http://dribbble.com/markmccoy">Mark McCoy</a> </li>
+                <li><a href="http://www.marcinmanek.com/" target="_blank">Marcin Manek</a> </li>
+                <li><a href="http://dribbble.com/markmccoy" target="_blank">Mark McCoy</a> </li>
             </ul>    
             <ul class="props">
-                <li><a href="http://mediahack.com/">Mediahack</a> </li>
+                <li><a href="http://mediahack.com/" target="_blank">Mediahack</a> </li>
                 <li><a href="#">Nate Fema</a> </li>
                 <li><a href="#">Nathan Ostgaurd</a></li>
-                <li><a href="http://www.komodomedia.com/">Rogie King</a> </li>
+                <li><a href="http://www.komodomedia.com/" target="_blank">Rogie King</a> </li>
                 <li><a href="#">Sean Sullivan</a> </li>
             </ul>
 
