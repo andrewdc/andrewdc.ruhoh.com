@@ -9,7 +9,7 @@
             <p>As you've likely guessed, I'm a total nerd at heart, so Internet software is the perfect niche for me. I love to code, I love to draw, and I love to create experiences which are as beautiful, as they are useful.</p>
             
             <p>
-             Personally, I love my wife and my family, grace, <a href="http://bastiat.org/" target="_blank">economics, liberty</a>, football (especially the Oregon Ducks), video games, and have a special appreciation for <a href="http://www.blind-guardian.com/" target="_blank">"epic power-metal"</a>.     
+             On the personal side, I love my wife and my family, grace, economics, liberty, <a href="http://goducks.com" target="_blank">football</a>, video games, and have a special appreciation for "<a href="http://www.blind-guardian.com/" target="_blank">epic power-metal</a>."     
             </p>
             
             <h4>Skills and Experience</h4>
@@ -22,7 +22,7 @@
 
             <h4>About This Site</h4>
             <p>
-                This site has two themes because I wanted to create a unique experience for two different audiences. The Ledgend represents my character and my love for game UI, and art creation - while Blue Steel is an study in modern web application less-is-more UI/UX beauty. 
+                I created this site to be fun and interesting to look at, and the design is obviously inspired by game UI. Feel free to poke around and get a feel for my design work. I have some exciting plans moving forward, so what you see here is really just the begining. I hope you enjoy it!<!--If this is too much for you - feel free to try out the <a class="switchy" href="#" onclick="return false;">LessIsMore</a> version. I don't mind. -->
             </p>
             <p>If you're curious, here is what my previous site design looked like:</p>
             <p>
@@ -34,7 +34,7 @@
                 <li>This site is built on <a href="http://ruhoh.com" target="_blank">Ruhoh</a>. A killer blog aware static site tool built by Jade Dominguez.</li>
                 <li>Themes and design make use of <a href="http://twitter.github.com/bootstrap/index.html" target="_blank">Twitter Bootstrap</a>.</li>
                 <li><a href="http://jquery.com">JQuery and JqueryUI</a>. Seriously - what else dominates this much?</li>
-                <li>Dribbble gallery brought to you buy <a href="http://code.google.com/p/halfcourtshot/" target="_blank">Half Court Shot</a>. A 1337 bit of javeascript composed by Rogie King and Mediahack.</li>
+                <li>Dribbble gallery brought to you buy <a href="http://code.google.com/p/halfcourtshot/" target="_blank">Half Court Shot</a>. A 1337 bit of javeascript composed by <a href="http://rog.ie">Rogie King</a> and <a href="http://blog.mediahack.com/apps/half-court-shot">Mediahack</a>.</li>
                 <li>Until more browsers support styling scrollbars, I'm using a great custom scrollbar js by <a href="http://manos.malihu.gr/jquery-custom-content-scroller" target="_blank">Manos</a></li>
                 <li>My image gallery uses the slick <a href="http://finegoodsmarket.com/view/" target="_blank">View.js</a> by Rogie King.</li>  
             </ul>
@@ -45,15 +45,16 @@
                 <li><a href="#">Brian Warren</a> </li>
                 <li><a href="#">David Queener</a> </li>
                 <li><a href="#">Jason Frasier</a> </li>
-                <li><a href="#">Marcin Manek</a> </li>
-                <li><a href="#">Mark McCoy</a> </li>
-                <li><a href="#">Mediahack</a> </li>
+                <li><a href="http://www.marcinmanek.com/">Marcin Manek</a> </li>
+                <li><a href="http://dribbble.com/markmccoy">Mark McCoy</a> </li>
+            </ul>    
+            <ul class="props">
+                <li><a href="http://mediahack.com/">Mediahack</a> </li>
                 <li><a href="#">Nate Fema</a> </li>
                 <li><a href="#">Nathan Ostgaurd</a></li>
-                <li><a href="#">Rogie King</a> </li>
+                <li><a href="http://www.komodomedia.com/">Rogie King</a> </li>
                 <li><a href="#">Sean Sullivan</a> </li>
-            </ul>    
-            
+            </ul>
 
         
         </div>
