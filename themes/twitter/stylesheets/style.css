@@ -468,7 +468,7 @@ a.thumbnail:hover {
 
 /* Popover
 =============================================*/
-.info{width:413px; display: block; position:absolute; z-index: 4; margin-left:5px;}
+.info{width:413px; display: block; position:absolute; z-index: 4; margin-left:5px; font-size: 15px;}
 .infotitle{color:#d1a251; display:block; line-height: 1; background:#49381f url('../img/sidepanel.png') center -30px no-repeat; padding: 9px 15px 9px 25px;}
 .infodata{ display: block;
   color:#fff1cf;
