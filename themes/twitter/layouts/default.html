@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" ><!-- id="alt" -->
+<html lang="en" >
   <head>
+    <!--
+      Congradulations weary travellor! You have discovered the location of my hidden rebel base. You shall be my honored guest. One word of caution: This is a constant WIP - so you should expect changes, occasional broken things, and even a few bad ideas from time to time. With that in mind - I'd love to meet you; to know what you think, so please hit me up on twitter or wherever. 
+    -->
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
   {{# page.description }}
@@ -15,6 +18,8 @@
     <!-- Le styles -->
     {{{ assets }}} 
 
+    <!-- Note that here I am not doing anything specific to support IE6. We had a good run, old nemisis - but I outlasted you in the end.-->
+
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -26,7 +31,7 @@
 
   </head>
 
-  <body><!-- id="alt" -->
+  <body>
     <div class="over container-fluid span12">
       <div class="row-fluid">
         <div class="controls">
@@ -47,21 +52,6 @@
 
 
     </div>
-
-    <!-- <div class="container"> --> 
-      <!--  <div class="controls span2">
-             <a class="brand" href="/">{{ site.title }}</a> 
-              <ul class="nav nav-list">
-                {{# site.navigation?to_pages }}
-                  {{> pages_list }}
-                {{/ site.navigation?to_pages }}
-
-                    <li class="nav-header">Blog</li>
-                    <li><a href="/archive">Archive</a></li>
-                    <li><a href="/categories">Categories</a></li>
-                    <li><a href="/tags">Tags</a></li>
-              </ul>
-      </div> -->
       <div class="content">
         {{{ content }}}
       </div>
@@ -76,14 +66,18 @@
       </div><!-- / .row -->
     <!-- </div> --> <!-- / .container -->
     {{> modal}}
-
     {{{ google_prettify }}}
     {{{ analytics }}}
   </body>
+
 <script>
+// Initialize awesome view action - thanks to Rogie King.
   new View( $('.thumbnails a[href]') );
 </script>
 
 <script type="text/javascript" src = "https://halfcourtshot.googlecode.com/svn/tags/101129.1100/js/half-court-shot.jsapp.mh.min.js"></script>
-<script type="text/javascript">var hcs = new HalfCourtShot({ jersey: "adc", shots: 6, goal: 'dribbble' });</script>
+<script type="text/javascript">
+  //My Dribbble feed - brought to you by HalfCourtShot by 1337 h4xx0rs Rogie King and Mediahack 
+  var hcs = new HalfCourtShot({ jersey: "adc", shots: 6, goal: 'dribbble' });
+</script>
 </html>

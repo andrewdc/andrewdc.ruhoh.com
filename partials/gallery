@@ -1,14 +1,15 @@
      <!-- Galleries require gallery data specified in the page YAML formatted as
      nails:
       -
-        url: imagepath.jpeg
+        url: imagepath.jpg
         title: title for overlay
         datcon: Content for overlay
+        modal: {"modalurl":"bigimagepath.jpg"} 
       -->
 
     <ul class="thumbnails"> 
       {{# page.nails}}
-        <li> <!-- title="{{title}}" data-content="{{datcon}}"-->
+        <li>
           <div class="frame"></div>
 
           <img class="lazy" data-original="{{urls.media}}/{{url}}" src="{{urls.media}}/hold.gif" alt=""  width="400" height="300" />
